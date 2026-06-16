@@ -2,7 +2,7 @@
 # ValueFilter for Path of Exile 2  —  loot hierarchy by live market value, not rarity
 #===============================================================================================================
 # Generator:  ValueFilter v0.1.0
-# Version:    0.1.0+20260616.2015   (generated 2026-06-16 20:15 UTC — this string also goes in the filter's Version field)
+# Version:    0.1.0-20260616.2023   (generated 2026-06-16 20:23 UTC — this string also goes in the filter's Version field)
 # Economy:    Runes of Aldur (runes) · 1 Divine = 187.5 Exalted (poe2scout, live at generation)
 # Strictness: regular (NeverSink 1-REGULAR)
 # Re-ranked:  currency, currency->catalysts, currency->emotions, currency->essence, currency->omen, fragments->generic, sockets->general, gems->lineage, xenotiering, uniques
