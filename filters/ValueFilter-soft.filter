@@ -2,8 +2,8 @@
 # ValueFilter for Path of Exile 2  —  loot hierarchy by live market value, not rarity
 #===============================================================================================================
 # Generator:  ValueFilter v0.1.0
-# Version:    0.1.0-20260627.1750   (generated 2026-06-27 17:50 UTC — this string also goes in the filter's Version field)
-# Economy:    Runes of Aldur (runes) · 1 Divine = 384.1 Exalted (poe2scout, live at generation)
+# Version:    0.1.0-20260628.1949   (generated 2026-06-28 19:49 UTC — this string also goes in the filter's Version field)
+# Economy:    Runes of Aldur (runes) · 1 Divine = 422.0 Exalted (poe2scout, live at generation)
 # Strictness: soft (NeverSink 0-SOFT)
 # Re-ranked:  currency, currency->catalysts, currency->emotions, currency->essence, currency->omen, fragments->generic, sockets->general, gems->lineage, xenotiering, uniques
 #
@@ -2263,7 +2263,7 @@ Show # %H7 $type->xenotiering $tier->b !xeno_b
 	MinimapIcon 1 Yellow Circle
 
 Show # %H6 $type->xenotiering $tier->c !xeno_c
-	BaseType == "Banded Wombgift" "Exceptional Verisium" "Lavish Wombgift" "Ornate Wombgift" "Signet Wombgift" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)" "Vorana's Crest of the Scythe"
+	BaseType == "Banded Wombgift" "Exceptional Verisium" "Lavish Wombgift" "Ornate Wombgift" "Signet Wombgift" "Thaumaturgic Flux (Level 1)" "Thaumaturgic Flux (Level 13)" "Thaumaturgic Flux (Level 17)" "Thaumaturgic Flux (Level 19)" "Thaumaturgic Flux (Level 2)" "Thaumaturgic Flux (Level 3)" "Thaumaturgic Flux (Level 4)" "Thaumaturgic Flux (Level 5)" "Thaumaturgic Flux (Level 6)" "Thaumaturgic Flux (Level 7)"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -2271,7 +2271,7 @@ Show # %H6 $type->xenotiering $tier->c !xeno_c
 	MinimapIcon 2 Cyan Circle
 
 Show # %H6 $type->xenotiering $tier->d !xeno_d
-	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Medved's Crest of the Circle" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 18)" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Wardbound Minions"
+	BaseType == "Animus Exchange" "Animus Splinters" "Bitter Dead" "Concussive Runes" "Conductive Runes" "Detonate Living" "Eternal March" "Explosive Transmutation" "Fist of Kalguur" "Fragments of the Past" "Frostflame Nova" "Grim Pillars" "Healing Runes" "Hollow Shell" "Leylines" "Medved's Crest of the Circle" "Powered by Verisium" "Rain of Blades" "Refutation" "Remnants of Kalguur" "Repulsion" "Runeforged Blades" "Runic Extraction" "Runic Infusion" "Runic Reprieve" "Scouring Flame" "Skyfall" "Thaumaturgic Flux (Level 12)" "Thaumaturgic Flux (Level 15)" "Thaumaturgic Flux (Level 16)" "Thaumaturgic Flux (Level 18)" "Triskelion Cascade" "Verisium Manifestations" "Voltaic Barrier" "Vorana's Crest of the Scythe" "Wardbound Minions"
 	SetFontSize 32
 	SetTextColor 205 205 205 255
 	SetBorderColor 130 130 130 255
@@ -2387,7 +2387,7 @@ Show # $type->sockets->general $tier->s !apex_stier
 
 Show # %H8 $type->sockets->general $tier->a !currency_a
 	Class == "Augment"
-	BaseType == "Cadigan's Epiphany" "Citaqualotl's Thesis" "Estazunti's Soul Core of Convalescence" "Greater Rune of Alacrity" "Greater Rune of Tithing" "Greater Ward Rune" "Guatelitzi's Soul Core of Endurance" "Hedgewitch Assandra's Rune of Wisdom" "Idol of Alira" "Idol of Eeshta" "Idol of Eramir" "Idol of Sirrius" "Kolr's Hunt" "Masterwork Rune" "Medved's Tending" "Quipolatl's Soul Core of Flow" "Rabbit Idol" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zalatl" "Soul Core of Zantipi" "Tzamoto's Soul Core of Ferocity" "Uhtred's Sidereus" "Vorana's Carnage" "Warding Rune of Heart" "Warding Rune of Obsession" "Warding Rune of Reinforcement" "Warding Rune of Stability"
+	BaseType == "Cadigan's Epiphany" "Citaqualotl's Thesis" "Greater Rune of Alacrity" "Greater Rune of Tithing" "Greater Ward Rune" "Guatelitzi's Soul Core of Endurance" "Hedgewitch Assandra's Rune of Wisdom" "Idol of Alira" "Idol of Eeshta" "Idol of Eramir" "Idol of Sirrius" "Katla's Gloom" "Kolr's Hunt" "Masterwork Rune" "Medved's Tending" "Quipolatl's Soul Core of Flow" "Rabbit Idol" "Rune of Renown" "Rune of the Blossom" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Citaqualotl" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Zalatl" "Soul Core of Zantipi" "Thrud's Might" "Tzamoto's Soul Core of Ferocity" "Uhtred's Sidereus" "Vorana's Carnage" "Warding Rune of Disintegration" "Warding Rune of Heart" "Warding Rune of Reinforcement" "Warding Rune of Stability"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -2397,7 +2397,7 @@ Show # %H8 $type->sockets->general $tier->a !currency_a
 
 Show # %H7 $type->sockets->general $tier->b !currency_b
 	Class == "Augment"
-	BaseType == "Ancient Rune of Decay" "Ancient Rune of Detonation" "Ancient Rune of Discovery" "Ancient Rune of Dueling" "Ancient Rune of Retaliation" "Ancient Rune of Shattering" "Ancient Rune of Splinters" "Ancient Rune of the Horde" "Ancient Rune of the Titan" "Atmohua's Soul Core of Retreat" "Betrayal of Aldur" "Breath of Aldur" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Countess Seske's Rune of Archery" "Courtesan Mannan's Rune of Cruelty" "Craiceann's Rune of Recovery" "Craiceann's Rune of Warding" "Farrul's Rune of Grace" "Farrul's Rune of the Chase" "Fenumus' Rune of Agony" "Fenumus' Rune of Draining" "Fenumus' Rune of Spinning" "Greater Charging Rune" "Greater Rune of Nobility" "Hawk Idol" "Hayoxi's Soul Core of Heatproofing" "Idol of Egrin" "Idol of Greust" "Idol of Grold" "Idol of Maxarius" "Idol of Oak" "Idol of Ralakesh" "Idol of the Pharisee" "Idol of Thruldana" "Idol of Yeena" "Ire of Aldur" "Katla's Gloom" "Panther Idol" "Rune of Accumulation" "Rune of Acrobatics" "Rune of Consistency" "Rune of Culmination" "Rune of Foundations" "Rune of Reach" "Rune of Renown" "Rune of the Blossom" "Rune of the Hunt" "Rune of the Prism" "Rune of Vitality" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Stoat Idol" "Tacati's Soul Core of Affliction" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Thane Myrk's Rune of Summer" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Thrud's Might" "Topotante's Soul Core of Dampening" "Uromoti's Soul Core of Attenuation" "Warding Rune of Annihilation" "Warding Rune of Armature" "Warding Rune of Bodyguards" "Warding Rune of Disintegration" "Warding Rune of Equinox" "Warding Rune of Glancing" "Warding Rune of Hollowing" "Warding Rune of Nourishment" "Warding Rune of Protection" "Warding Rune of Salvaging" "Xipocado's Soul Core of Dominion" "Zalatl's Soul Core of Insulation"
+	BaseType == "Ancient Rune of Decay" "Ancient Rune of Detonation" "Ancient Rune of Discovery" "Ancient Rune of Dueling" "Ancient Rune of Retaliation" "Ancient Rune of Shattering" "Ancient Rune of Splinters" "Ancient Rune of the Horde" "Ancient Rune of the Titan" "Ancient Rune of Witchcraft" "Atmohua's Soul Core of Retreat" "Betrayal of Aldur" "Breath of Aldur" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Countess Seske's Rune of Archery" "Courtesan Mannan's Rune of Cruelty" "Craiceann's Rune of Recovery" "Craiceann's Rune of Warding" "Estazunti's Soul Core of Convalescence" "Farrul's Rune of Grace" "Farrul's Rune of the Chase" "Farrul's Rune of the Hunt" "Fenumus' Rune of Agony" "Fenumus' Rune of Draining" "Fenumus' Rune of Spinning" "Greater Charging Rune" "Greater Mind Rune" "Greater Rune of Nobility" "Hawk Idol" "Hayoxi's Soul Core of Heatproofing" "Idol of Egrin" "Idol of Greust" "Idol of Grold" "Idol of Maxarius" "Idol of Oak" "Idol of Ralakesh" "Idol of the Pharisee" "Idol of Thruldana" "Idol of Yeena" "Ire of Aldur" "Panther Idol" "Rune of Accumulation" "Rune of Acrobatics" "Rune of Consistency" "Rune of Culmination" "Rune of Foundations" "Rune of Reach" "Rune of the Hunt" "Rune of the Prism" "Rune of Vitality" "Saqawal's Rune of Memory" "Saqawal's Rune of the Sky" "Stoat Idol" "Tacati's Soul Core of Affliction" "Thane Girt's Rune of Wildness" "Thane Grannell's Rune of Mastery" "Thane Myrk's Rune of Summer" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower" "Topotante's Soul Core of Dampening" "Uromoti's Soul Core of Attenuation" "Warding Rune of Annihilation" "Warding Rune of Armature" "Warding Rune of Bodyguards" "Warding Rune of Equinox" "Warding Rune of Glancing" "Warding Rune of Hollowing" "Warding Rune of Nourishment" "Warding Rune of Obsession" "Warding Rune of Protection" "Warding Rune of Salvaging" "Xipocado's Soul Core of Dominion" "Zalatl's Soul Core of Insulation"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -2407,7 +2407,7 @@ Show # %H7 $type->sockets->general $tier->b !currency_b
 
 Show # %H6 $type->sockets->general $tier->c !currency_c
 	Class == "Augment"
-	BaseType == "Ancient Rune of Animosity" "Ancient Rune of Prowess" "Ancient Rune of Witchcraft" "Bear Idol" "Boar Idol" "Cat Idol" "Farrul's Rune of the Hunt" "Greater Adept Rune" "Greater Body Rune" "Greater Iron Rune" "Greater Mind Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Storm Rune" "Idol of Kraityn" "Idol of Silk" "Idol of the Martyr" "Idol of the Sycophant" "Lady Hestra's Rune of Winter" "Owl Idol" "Ox Idol" "Passion of Aldur" "Primate Idol" "Rune of Confrontation" "Saqawal's Rune of Erosion" "Snake Idol" "Stag Idol" "Thane Leld's Rune of Spring" "Warding Rune of Courage" "Warding Rune of Desperation" "Warding Rune of Symbiosis" "Wolf Idol"
+	BaseType == "Ancient Rune of Animosity" "Ancient Rune of Control" "Ancient Rune of Prowess" "Bear Idol" "Boar Idol" "Cat Idol" "Greater Adept Rune" "Greater Body Rune" "Greater Desert Rune" "Greater Inspiration Rune" "Greater Iron Rune" "Greater Resolve Rune" "Greater Robust Rune" "Greater Storm Rune" "Idol of Kraityn" "Idol of Silk" "Idol of the Martyr" "Idol of the Sycophant" "Lady Hestra's Rune of Winter" "Owl Idol" "Ox Idol" "Passion of Aldur" "Primate Idol" "Rune of Confrontation" "Saqawal's Rune of Erosion" "Snake Idol" "Thane Leld's Rune of Spring" "Warding Rune of Courage" "Warding Rune of Desperation" "Warding Rune of Symbiosis" "Wolf Idol"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -2416,7 +2416,7 @@ Show # %H6 $type->sockets->general $tier->c !currency_c
 
 Show # %H5 $type->sockets->general $tier->d !currency_d
 	Class == "Augment"
-	BaseType == "Ancient Rune of Control" "Greater Desert Rune" "Greater Glacial Rune" "Greater Inspiration Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune" "Rune of Vital Flame"
+	BaseType == "Greater Glacial Rune" "Greater Rebirth Rune" "Greater Stone Rune" "Greater Vision Rune" "Rune of Vital Flame" "Stag Idol"
 	SetFontSize 32
 	SetTextColor 205 205 205 255
 	SetBorderColor 130 130 130 255
@@ -2551,7 +2551,7 @@ Show # $type->gems->lineage $tier->value_s !value_s
 	MinimapIcon 0 Red Triangle
 Show # $type->gems->lineage $tier->s !apex_stier
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Amanamu's Tithe" "Arbiter's Ignition" "Atalui's Bloodletting" "Atziri's Allure" "Breachlord's Amalgam" "Catha's Brilliance" "Ixchel's Torment" "Khatal's Rejuvenation"
+	BaseType == "Amanamu's Tithe" "Arbiter's Ignition" "Atalui's Bloodletting" "Atziri's Allure" "Breachlord's Amalgam" "Catha's Brilliance" "Esh's Prowess" "Ixchel's Torment" "Khatal's Rejuvenation"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 60 60 255
@@ -2562,7 +2562,7 @@ Show # $type->gems->lineage $tier->s !apex_stier
 
 Show # %H8 $type->gems->lineage $tier->a !uniques_a
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Ailith's Chimes" "Atziri's Call" "Brutus' Brain" "Dreamer's Knell" "Eonyr's Thunder" "Esh's Prowess" "Helbrym's Hide" "Medved's Felling" "Mórrigan's Insight" "Paquate's Pact" "Sione's Temper" "Styrn's Ferocity" "Styrn's Mountain" "Uhtred's Constellation" "Uhtred's Rite" "Zarokh's Refrain" "Zarokh's Revolt" "Zerphi's Infamy"
+	BaseType == "Ailith's Chimes" "Arbiter's Reach" "Atziri's Call" "Brutus' Brain" "Doedre's Undoing" "Dreamer's Knell" "Eonyr's Thunder" "Helbrym's Hide" "Medved's Felling" "Mórrigan's Insight" "Prototype Seventeen" "Sione's Temper" "Styrn's Ferocity" "Uhtred's Constellation" "Uhtred's Rite" "Zarokh's Refrain" "Zarokh's Revolt" "Zerphi's Infamy"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -2572,7 +2572,7 @@ Show # %H8 $type->gems->lineage $tier->a !uniques_a
 
 Show # %H7 $type->gems->lineage $tier->b !uniques_x
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Ahn's Citadel" "Arbiter's Reach" "Atziri's Impatience" "Bhatair's Vengeance" "Doedre's Undoing" "Dominus' Grasp" "Einhar's Beastrite" "Hayoxi's Fulmination" "Kalisa's Crescendo" "Kaom's Madness" "Kulemak's Dominion" "Kurgal's Leash" "Morgana's Tempest" "Oisín's Oath" "Olroth's Hubris" "Prototype Seventeen" "Ratha's Assault" "Romira's Requital" "Tacati's Ire" "Tangmazu's Thurible" "Tasalio's Rhythm" "Tecrod's Revenge" "Trickster's Shard" "Tul's Avalanche" "Uruk's Smelting" "Xibaqua's Rending"
+	BaseType == "Ahn's Citadel" "Atziri's Impatience" "Bhatair's Vengeance" "Dominus' Grasp" "Einhar's Beastrite" "Hayoxi's Fulmination" "Kalisa's Crescendo" "Kaom's Madness" "Kulemak's Dominion" "Kurgal's Leash" "Morgana's Tempest" "Oisín's Oath" "Olroth's Hubris" "Paquate's Pact" "Romira's Requital" "Styrn's Mountain" "Tangmazu's Thurible" "Tasalio's Rhythm" "Tecrod's Revenge" "Trickster's Shard" "Tul's Avalanche" "Uruk's Smelting" "Vilenta's Propulsion" "Vruun's Aftermath" "Xibaqua's Rending"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -2582,7 +2582,7 @@ Show # %H7 $type->gems->lineage $tier->b !uniques_x
 
 Show # %H6 $type->gems->lineage $tier->c !uniques_b
 	Class == "Skill Gems" "Support Gems"
-	BaseType == "Arakaali's Lust" "Arjun's Medal" "Cirel's Cultivation" "Daresso's Passion" "Guatelitzi's Ablation" "Tawhoa's Tending" "Varashta's Blessing" "Vilenta's Propulsion" "Vruun's Aftermath" "Vruun's Inevitability"
+	BaseType == "Arakaali's Lust" "Arjun's Medal" "Cirel's Cultivation" "Daresso's Passion" "Guatelitzi's Ablation" "Ratha's Assault" "Tacati's Ire" "Tawhoa's Tending" "Varashta's Blessing" "Vruun's Inevitability"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -3401,7 +3401,7 @@ Show # $type->currency $tier->s !apex_stier
 
 Show # %H8 $type->currency $tier->a !currency_a
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Ancient Infuser" "Chaos Orb" "Greater Chaos Orb" "Orb of Annulment" "Orb of Extraction" "Perfect Jeweller's Orb" "Perfect Regal Orb" "Vaal Armourer's Infuser" "Vaal Blacksmith's Infuser"
+	BaseType == "Ancient Infuser" "Chaos Orb" "Greater Chaos Orb" "Orb of Annulment" "Orb of Extraction" "Perfect Jeweller's Orb" "Perfect Orb of Augmentation" "Perfect Regal Orb" "Vaal Armourer's Infuser" "Vaal Blacksmith's Infuser"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -3411,7 +3411,7 @@ Show # %H8 $type->currency $tier->a !currency_a
 
 Show # %H7 $type->currency $tier->b !currency_b
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Gnawed Jawbone" "Orb of Chance" "Perfect Orb of Augmentation" "Perfect Orb of Transmutation" "Preserved Collarbone"
+	BaseType == "Gnawed Collarbone" "Gnawed Jawbone" "Orb of Chance" "Perfect Orb of Transmutation" "Preserved Collarbone"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -3421,7 +3421,7 @@ Show # %H7 $type->currency $tier->b !currency_b
 
 Show # %H6 $type->currency $tier->c !currency_c
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb" "Chance Shard" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Gnawed Collarbone" "Gnawed Rib" "Greater Exalted Orb" "Greater Jeweller's Orb" "Greater Regal Orb" "Vaal Arcanist's Infuser" "Vaal Orb" "Vaal Siphoner"
+	BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb" "Chance Shard" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Gnawed Rib" "Greater Exalted Orb" "Greater Jeweller's Orb" "Greater Regal Orb" "Orb of Alchemy" "Vaal Arcanist's Infuser" "Vaal Orb" "Vaal Siphoner"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -3430,7 +3430,7 @@ Show # %H6 $type->currency $tier->c !currency_c
 
 Show # %H5 $type->currency $tier->d !currency_d
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Blacksmith's Whetstone" "Greater Orb of Augmentation" "Greater Orb of Transmutation" "Lesser Jeweller's Orb" "Orb of Alchemy" "Preserved Jawbone" "Preserved Rib" "Regal Orb"
+	BaseType == "Blacksmith's Whetstone" "Greater Orb of Augmentation" "Greater Orb of Transmutation" "Lesser Jeweller's Orb" "Preserved Jawbone" "Preserved Rib" "Regal Orb"
 	SetFontSize 32
 	SetTextColor 205 205 205 255
 	SetBorderColor 130 130 130 255
@@ -3655,7 +3655,7 @@ Show # $type->currency->catalysts $tier->restex !utility_unknownitem
 
 Show # %H8 $type->currency->essence $tier->a !currency_a
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Essence of Abrasion" "Essence of Alacrity" "Essence of Delirium" "Essence of Grounding" "Essence of Horror" "Essence of Hysteria" "Essence of Opulence" "Essence of the Breach" "Perfect Essence of the Infinite"
+	BaseType == "Essence of Abrasion" "Essence of Alacrity" "Essence of Delirium" "Essence of Grounding" "Essence of Horror" "Essence of Hysteria" "Essence of Opulence" "Essence of the Breach" "Lesser Essence of Abrasion" "Perfect Essence of the Infinite"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -3665,7 +3665,7 @@ Show # %H8 $type->currency->essence $tier->a !currency_a
 
 Show # %H7 $type->currency->essence $tier->b !currency_b
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Essence of Command" "Essence of Electricity" "Essence of Enhancement" "Essence of Haste" "Essence of Insanity" "Essence of Insulation" "Essence of Ruin" "Essence of Seeking" "Essence of Sorcery" "Essence of Thawing" "Essence of the Abyss" "Essence of the Body" "Essence of the Infinite" "Greater Essence of Opulence" "Greater Essence of Seeking" "Lesser Essence of Abrasion" "Lesser Essence of Alacrity" "Lesser Essence of Command" "Lesser Essence of Electricity" "Lesser Essence of Enhancement" "Lesser Essence of Grounding" "Lesser Essence of Haste" "Lesser Essence of Ice" "Lesser Essence of Opulence" "Lesser Essence of Ruin" "Lesser Essence of Seeking" "Lesser Essence of Sorcery" "Lesser Essence of Thawing" "Perfect Essence of Abrasion" "Perfect Essence of Battle" "Perfect Essence of Electricity" "Perfect Essence of Enhancement" "Perfect Essence of Grounding" "Perfect Essence of Haste" "Perfect Essence of Opulence" "Perfect Essence of Sorcery" "Perfect Essence of the Mind"
+	BaseType == "Essence of Battle" "Essence of Command" "Essence of Electricity" "Essence of Enhancement" "Essence of Haste" "Essence of Ice" "Essence of Insanity" "Essence of Insulation" "Essence of Ruin" "Essence of Seeking" "Essence of Sorcery" "Essence of Thawing" "Essence of the Abyss" "Essence of the Body" "Essence of the Infinite" "Greater Essence of Opulence" "Greater Essence of Seeking" "Lesser Essence of Alacrity" "Lesser Essence of Command" "Lesser Essence of Electricity" "Lesser Essence of Enhancement" "Lesser Essence of Grounding" "Lesser Essence of Haste" "Lesser Essence of Ice" "Lesser Essence of Opulence" "Lesser Essence of Ruin" "Lesser Essence of Seeking" "Lesser Essence of Sorcery" "Perfect Essence of Abrasion" "Perfect Essence of Alacrity" "Perfect Essence of Battle" "Perfect Essence of Electricity" "Perfect Essence of Enhancement" "Perfect Essence of Grounding" "Perfect Essence of Haste" "Perfect Essence of Ice" "Perfect Essence of Opulence" "Perfect Essence of Seeking"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -3675,7 +3675,7 @@ Show # %H7 $type->currency->essence $tier->b !currency_b
 
 Show # %H6 $type->currency->essence $tier->c !currency_c
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Essence of Battle" "Essence of Flames" "Essence of Ice" "Essence of the Mind" "Greater Essence of Abrasion" "Greater Essence of Battle" "Greater Essence of Command" "Greater Essence of Electricity" "Greater Essence of Enhancement" "Greater Essence of Grounding" "Greater Essence of Haste" "Greater Essence of Ice" "Greater Essence of Insulation" "Greater Essence of Ruin" "Greater Essence of Thawing" "Lesser Essence of Battle" "Lesser Essence of Flames" "Lesser Essence of Insulation" "Lesser Essence of the Body" "Lesser Essence of the Infinite" "Perfect Essence of Alacrity" "Perfect Essence of Command" "Perfect Essence of Flames" "Perfect Essence of Ice" "Perfect Essence of Insulation" "Perfect Essence of Ruin" "Perfect Essence of Seeking" "Perfect Essence of Thawing" "Perfect Essence of the Body"
+	BaseType == "Essence of Flames" "Greater Essence of Abrasion" "Greater Essence of Alacrity" "Greater Essence of Command" "Greater Essence of Electricity" "Greater Essence of Enhancement" "Greater Essence of Grounding" "Greater Essence of Haste" "Greater Essence of Insulation" "Greater Essence of Ruin" "Greater Essence of Sorcery" "Greater Essence of Thawing" "Lesser Essence of Battle" "Lesser Essence of Flames" "Lesser Essence of Insulation" "Lesser Essence of Thawing" "Lesser Essence of the Body" "Lesser Essence of the Infinite" "Perfect Essence of Command" "Perfect Essence of Flames" "Perfect Essence of Insulation" "Perfect Essence of Ruin" "Perfect Essence of Sorcery" "Perfect Essence of Thawing" "Perfect Essence of the Body" "Perfect Essence of the Mind"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -3684,7 +3684,7 @@ Show # %H6 $type->currency->essence $tier->c !currency_c
 
 Show # %H5 $type->currency->essence $tier->d !currency_d
 	Class == "Incubators" "Stackable Currency"
-	BaseType == "Greater Essence of Alacrity" "Greater Essence of Flames" "Greater Essence of Sorcery" "Greater Essence of the Body" "Greater Essence of the Infinite" "Greater Essence of the Mind" "Lesser Essence of the Mind"
+	BaseType == "Essence of the Mind" "Greater Essence of Battle" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of the Body" "Greater Essence of the Infinite" "Greater Essence of the Mind" "Lesser Essence of the Mind"
 	SetFontSize 32
 	SetTextColor 205 205 205 255
 	SetBorderColor 130 130 130 255
@@ -3722,7 +3722,7 @@ Show # $type->currency->essence $tier->restex !utility_unknownitem
 # !! Waypoint c9.currency.omen.all : "Tierlist - Omen (Ritual)" : "Currency"
 
 Show # $type->currency->omen $tier->value_s !value_s
-	BaseType == "Omen of Chance" "Omen of Sinistral Annulment"
+	BaseType == "Omen of Chance"
 	SetFontSize 45
 	SetTextColor 200 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3732,7 +3732,7 @@ Show # $type->currency->omen $tier->value_s !value_s
 	MinimapIcon 0 Red Kite
 Show # $type->currency->omen $tier->s !apex_stier
 	Class == "Omen"
-	BaseType == "Head of the King" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Light" "Omen of Sinistral Erasure" "Omen of Whittling"
+	BaseType == "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Light" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 60 60 255
@@ -3743,7 +3743,7 @@ Show # $type->currency->omen $tier->s !apex_stier
 
 Show # %H8 $type->currency->omen $tier->a !currency_a
 	Class == "Omen"
-	BaseType == "Aldur's Saga" "Medved's Saga" "Olroth's Saga" "Omen of Abyssal Echoes" "Omen of Answered Prayers" "Omen of Chaotic Monsters" "Omen of Chaotic Quantity" "Omen of Chaotic Rarity" "Omen of Corruption" "Omen of Dextral Crystallisation" "Omen of Reinforcements" "Omen of Sanctification" "Omen of Secret Compartments" "Omen of Sinistral Crystallisation" "Omen of the Blackblooded" "Omen of the Blessed" "Omen of the Hunt" "Uhtred's Saga" "Vorana's Saga"
+	BaseType == "Aldur's Saga" "Head of the King" "Medved's Saga" "Olroth's Saga" "Omen of Abyssal Echoes" "Omen of Answered Prayers" "Omen of Chaotic Effectiveness" "Omen of Chaotic Monsters" "Omen of Chaotic Quantity" "Omen of Chaotic Rarity" "Omen of Corruption" "Omen of Dextral Crystallisation" "Omen of Reinforcements" "Omen of Sanctification" "Omen of Secret Compartments" "Omen of Sinistral Crystallisation" "Omen of the Blackblooded" "Omen of the Blessed" "Omen of the Hunt" "Uhtred's Saga" "Vorana's Saga"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -3753,7 +3753,7 @@ Show # %H8 $type->currency->omen $tier->a !currency_a
 
 Show # %H7 $type->currency->omen $tier->b !currency_b
 	Class == "Omen"
-	BaseType == "Omen of Amelioration" "Omen of Bartering" "Omen of Catalysing Exaltation" "Omen of Chaotic Effectiveness" "Omen of Dextral Exaltation" "Omen of Resurgence" "Omen of Sinistral Exaltation" "Omen of the Ancients" "Omen of the Sovereign"
+	BaseType == "Omen of Amelioration" "Omen of Bartering" "Omen of Catalysing Exaltation" "Omen of Dextral Exaltation" "Omen of Resurgence" "Omen of Sinistral Exaltation" "Omen of the Ancients"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -3763,7 +3763,7 @@ Show # %H7 $type->currency->omen $tier->b !currency_b
 
 Show # %H6 $type->currency->omen $tier->c !currency_c
 	Class == "Omen"
-	BaseType == "Omen of Dextral Necromancy" "Omen of Greater Exaltation" "Omen of Refreshment" "Omen of Sinistral Necromancy"
+	BaseType == "Omen of Dextral Necromancy" "Omen of Gambling" "Omen of Greater Exaltation" "Omen of Putrefaction" "Omen of Refreshment" "Omen of Sinistral Necromancy" "Omen of the Sovereign"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
@@ -3772,7 +3772,7 @@ Show # %H6 $type->currency->omen $tier->c !currency_c
 
 Show # %H5 $type->currency->omen $tier->d !currency_d
 	Class == "Omen"
-	BaseType == "Omen of Gambling" "Omen of Putrefaction" "Omen of the Liege"
+	BaseType == "Omen of the Liege"
 	SetFontSize 32
 	SetTextColor 205 205 205 255
 	SetBorderColor 130 130 130 255
@@ -3882,7 +3882,7 @@ Show # $type->uniques $tier->checkme !value_checkme
 	Continue
 Show # $type->uniques $tier->value_s !value_s
 	Rarity Unique
-	BaseType == "Diamond" "Golden Charm" "Incense Relic" "Ring" "Sacred Focus" "Sapphire" "Silk Robe" "Unset Ring" "Wide Belt"
+	BaseType == "Golden Charm" "Incense Relic" "Ring" "Sacred Focus" "Sapphire" "Silk Robe" "Unset Ring" "Wide Belt"
 	SetFontSize 45
 	SetTextColor 200 0 0 255
 	SetBorderColor 255 0 0 255
@@ -3892,7 +3892,7 @@ Show # $type->uniques $tier->value_s !value_s
 	MinimapIcon 0 Red Star
 Show # $type->uniques $tier->t1 !apex_stier
 	Rarity Unique
-	BaseType == "Abyss Tablet" "Emerald" "Garment" "Grand Regalia" "Grand Spear" "Moulded Mitts" "Ornate Gauntlets" "Prismatic Ring" "Shrine Sceptre" "Time-Lost Diamond" "Ultimate Life Flask" "Vase Relic"
+	BaseType == "Abyss Tablet" "Diamond" "Emerald" "Garment" "Grand Regalia" "Grand Spear" "Moulded Mitts" "Ornate Gauntlets" "Prismatic Ring" "Shrine Sceptre" "Time-Lost Diamond" "Ultimate Life Flask" "Vase Relic"
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 60 60 255
@@ -3903,7 +3903,7 @@ Show # $type->uniques $tier->t1 !apex_stier
 
 Show # %H8 $type->uniques $tier->t2 !uniques_a
 	Rarity Unique
-	BaseType == "Aberrant Sledge" "Ancient Leggings" "Armoured Cap" "Array Buckler" "Chain Tiara" "Crucible Tower Shield" "Fine Bracers" "Furtive Wraps" "Pearl Ring" "Primed Quiver" "Ritual Tablet" "Ruby" "Sacrificial Regalia" "Sapphire Ring" "Silver Charm" "Spiral Wraps" "Stoic Sceptre" "Stone Charm" "Temple Tablet" "Timeless Jewel" "Two-Stone Ring"
+	BaseType == "Aberrant Sledge" "Ancient Leggings" "Armoured Cap" "Array Buckler" "Brimmed Helm" "Chain Tiara" "Fine Bracers" "Furtive Wraps" "Pearl Ring" "Primed Quiver" "Ritual Tablet" "Ruby" "Sacrificial Regalia" "Sapphire Ring" "Silver Charm" "Siphoning Wand" "Spiral Wraps" "Stoic Sceptre" "Stone Charm" "Temple Tablet" "Timeless Jewel" "Two-Stone Ring"
 	SetFontSize 42
 	SetTextColor 255 248 240 255
 	SetBorderColor 255 140 30 255
@@ -4059,7 +4059,7 @@ Show # %H5 $type->uniques $tier->t3boss !uniques_xbossdrop
 
 Show # %H5 $type->uniques $tier->t3 !uniques_b
 	Rarity Unique
-	BaseType == "Altar Robe" "Amethyst Ring" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Breach Tablet" "Brimmed Helm" "Champion Cuirass" "Coffer Relic" "Conqueror Plate" "Covert Hood" "Decorated Helm" "Delirium Tablet" "Engraved Bracers" "Gargantuan Mana Flask" "Glacial Fortress" "Gold Ring" "Grand Manchettes" "Heartwood Shortbow" "Heavy Crown" "Intricate Crest Shield" "Iron Crown" "Morning Star" "Pelage Targe" "Permafrost Staff" "Primal Markings" "Pronged Spear" "Shortbow" "Siphoning Wand" "Stocky Mitts" "Thawing Charm" "Topaz Ring" "Torment Club" "Transcendent Mana Flask" "Trarthan Cannon" "Twisted Wand" "Veridical Chain" "Winged Spear"
+	BaseType == "Altar Robe" "Amethyst Ring" "Armoured Vest" "Ashbark Talisman" "Barbed Spear" "Breach Tablet" "Champion Cuirass" "Coffer Relic" "Conqueror Plate" "Covert Hood" "Crucible Tower Shield" "Decorated Helm" "Delirium Tablet" "Engraved Bracers" "Gargantuan Mana Flask" "Glacial Fortress" "Gold Ring" "Grand Manchettes" "Heartwood Shortbow" "Heavy Crown" "Intricate Crest Shield" "Iron Crown" "Morning Star" "Pelage Targe" "Permafrost Staff" "Primal Markings" "Pronged Spear" "Shortbow" "Stocky Mitts" "Thawing Charm" "Topaz Ring" "Torment Club" "Transcendent Mana Flask" "Trarthan Cannon" "Twisted Wand" "Veridical Chain" "Winged Spear"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -4172,7 +4172,7 @@ Show # $type->fragments->generic $tier->a !fragments_a
 	MinimapIcon 1 Orange Hexagon
 
 Show # $type->fragments->generic $tier->b !fragments_b
-	BaseType == "Ritual Tablet"
+	BaseType == "An Audience with the King" "Ritual Tablet"
 	SetFontSize 40
 	SetTextColor 255 250 220 255
 	SetBorderColor 235 200 60 255
@@ -4181,7 +4181,7 @@ Show # $type->fragments->generic $tier->b !fragments_b
 	MinimapIcon 1 Yellow Hexagon
 
 Show # $type->fragments->generic $tier->c !fragments_c
-	BaseType == "Abyss Tablet" "An Audience with the King" "Breach Tablet" "Delirium Tablet" "Irradiated Tablet" "Overseer Tablet" "Temple Tablet"
+	BaseType == "Abyss Tablet" "Breach Tablet" "Delirium Tablet" "Irradiated Tablet" "Overseer Tablet" "Temple Tablet"
 	SetFontSize 38
 	SetTextColor 225 250 248 255
 	SetBorderColor 60 200 190 255
