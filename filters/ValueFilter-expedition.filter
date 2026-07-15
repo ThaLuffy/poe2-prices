@@ -4,8 +4,10 @@
 # Generator:  ValueFilter v0.1.0
 # Version:    0.1.0-20260715.2131   (generated 2026-07-15 21:31 UTC — this string also goes in the filter's Version field)
 # Economy:    Runes of Aldur (runes) · 1 Divine = 423.0 Exalted (poe2scout, live at generation)
-# Strictness: uber (NeverSink 5-UBER-STRICT)
+# Strictness: expedition (NeverSink 5-UBER-STRICT)
 # Re-ranked:  currency, currency->catalysts, currency->emotions, currency->essence, currency->omen, fragments->generic, sockets->general, gems->lineage, xenotiering, uniques
+# Expedition: endgame rare EQUIPMENT is hidden except unidentified T4/T5 Obliterator Bow,
+#             Warmonger Bow, Sinister Quarterstaff, Bolting Quarterstaff — jewellery untouched.
 #
 # Auto-generated from the live economy — do not edit by hand.
 #
@@ -25,7 +27,7 @@
 #------------------------------------
 # INSTALL
 #------------------------------------
-#   In-game: Escape → Options → UI → Item Filter → select "ValueFilter-uber".
+#   In-game: Escape → Options → UI → Item Filter → select "ValueFilter-expedition".
 #
 #------------------------------------
 # CREDIT & LICENSE
@@ -128,6 +130,37 @@
 #===============================================================================================================
 # !! Waypoint c0.start : "Start - Override ALL rules" : "Gold"
 
+Show # $type->expedition $tier->keep_t5 !exp_keep
+	Rarity Rare
+	UnidentifiedItemTier >= 5
+	BaseType == "Bolting Quarterstaff" "Obliterator Bow" "Sinister Quarterstaff" "Warmonger Bow"
+	AreaLevel >= 65
+	SetFontSize 42
+	SetTextColor 255 248 240 255
+	SetBorderColor 255 140 30 255
+	SetBackgroundColor 70 33 8 255
+	PlayAlertSound 1 300
+	MinimapIcon 1 Orange Diamond
+Show # $type->expedition $tier->keep_t4 !exp_keep
+	Rarity Rare
+	UnidentifiedItemTier >= 4
+	BaseType == "Bolting Quarterstaff" "Obliterator Bow" "Sinister Quarterstaff" "Warmonger Bow"
+	AreaLevel >= 65
+	SetFontSize 40
+	SetTextColor 255 250 220 255
+	SetBorderColor 235 200 60 255
+	SetBackgroundColor 55 45 8 255
+	PlayAlertSound 2 200
+	MinimapIcon 1 Yellow Diamond
+Hide # $type->expedition $tier->hidegear !exp_hide
+	Rarity Rare
+	Class == "Body Armours" "Boots" "Bows" "Bucklers" "Crossbows" "Foci" "Gloves" "Helmets" "One Hand Maces" "Quarterstaves" "Quivers" "Sceptres" "Shields" "Spears" "Staves" "Talismans" "Two Hand Maces" "Wands"
+	AreaLevel >= 65
+	SetFontSize 18
+	SetTextColor 120 120 120 0
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 0 0 0 0
+	DisableDropSound True
 Show # %D7 $type->gold $tier->stack3 !gold_pilehuge
 	StackSize >= 5000
 	BaseType == "Gold"
